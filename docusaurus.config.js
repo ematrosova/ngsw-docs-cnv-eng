@@ -4,12 +4,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
   title: 'Genomenal',
-  url: 'https://ematrosova.github.io',
+  url: 'https://genomenal.com',
   baseUrl: '/ngsw-docs-cnv-eng/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'ematrosova', // Usually your GitHub org/user name.
+  organizationName: 'genomenal', // Usually your GitHub org/user name.
   projectName: 'ngsw-docs-cnv-eng', // Usually your repo name.
 
   presets: [
