@@ -3,24 +3,24 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'Genomenal',
-  url: 'https://genomenal.com',
-  baseUrl: '/ngsw-docs-cnv-eng/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'genomenal', // Usually your GitHub org/user name.
-  projectName: 'ngsw-docs-cnv-eng', // Usually your repo name.
+    title: 'Genomenal',
+    url: 'https://genomenal.com',
+    baseUrl: '/ngsw-docs-cnv-en/',
+    onBrokenLinks: 'throw',
+    onBrokenMarkdownLinks: 'warn',
+    favicon: 'img/favicon.ico',
+    organizationName: 'genomenal', // Usually your GitHub org/user name.
+    projectName: 'ngsw-docs-cnv-en', // Usually your repo name.
 
-  presets: [
-    [
-      '@docusaurus/preset-classic',
-      {
-        docs: {
-			routeBasePath: '/',
-			homePageId: 'intro',
-            sidebarPath: require.resolve('./sidebars.js'),
-            // editUrl: 'https://github.com/RoadRoller/ngsw-docs-ru/edit/master/website/',
+    presets: [
+        [
+            '@docusaurus/preset-classic',
+            {
+                docs: {
+                    routeBasePath: '/',
+                    homePageId: 'intro',
+                    sidebarPath: require.resolve('./sidebars.js'),
+                    // editUrl: 'https://github.com/RoadRoller/ngsw-docs-ru/edit/master/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
