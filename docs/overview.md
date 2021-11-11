@@ -9,7 +9,9 @@ When you first open Genomenal, you will see a login page. Enter your login and p
 
 Next you will see the main page listing the patients. If you have not previously used the service, the page will be empty. There is a search bar at the top to help you navigate through the patient pages.
 
-![All patients page](/img/eng/1-all-patients-page.png)
+<p align="center">
+<img src="img/eng/1-all-patients-page.png" width="1000"/>
+</p>
 
 You can see the various sections of the service in the navigation bar on the left. The bar contains the **“In process”** section, where there will be only those patients with samples being currently processed; the **“Problems”** section, where there will be only those patients with problems during data processing. You can transfer irrelevant data or data for later deletion to the **“Archive”** section.
 

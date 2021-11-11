@@ -9,7 +9,9 @@ The reads in the file(s) are checked for compliance with quality criteria. Depen
 
 In the eponymous section of “Workflow details”, information about the thresholds and quality checks that the samples passed are displayed. Here you can also download a detailed report with visualizations about each of the files before and after cleaning.
 
-![Quality control report](/img/eng/20-quality-control-report.png)
+<p align="center">
+<img src="../img/eng/20-quality-control-report.png" width="300"/>
+</p>
 
 **The sequence quality control metrics**
 

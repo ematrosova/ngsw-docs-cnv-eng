@@ -20,19 +20,18 @@ import TabItem from '@theme/TabItem';
     {label: 'From FTP, HTTP or Yandex Disk servers', value: 'url'},
     {label: 'From the NCBI SRA database', value: 'sra'},
   ]}>
-  <TabItem value="pc">To upload, drag and drop files or folder containing files into the drop-area or click on it to open the File Browser:<br />
-  	<img src={'../../img/eng/9-drag-drop-box.png'}/>
+  <TabItem value="pc"><p align="center">To upload, drag and drop files or folder containing files into the drop-area or click on it to open the File Browser:<br />
+  	<img src={'../../img/eng/9-drag-drop-box.png'}  width="300"/></p>
   </TabItem>
-  <TabItem value="url">
-  To upload, paste the link to the file on the server into the placeholder:<br />
-  	<img src={'../../img/eng/10-12-url-box.png'}/><br />
+  <TabItem value="url"><p align="center">To upload, paste the link to the file on the server into the placeholder:<br />
+  	<img src={'../../img/eng/10-12-url-box.png'} width="250"/><br />
   and click on the button:<br />
-  	<img src={'../../img/eng/11-13-url_active.png'}/>
+  	<img src={'../../img/eng/11-13-url_active.png'} width="250"/></p>
   </TabItem>
-  <TabItem value="sra">To upload, paste the sample ID (SRRXXXXX) from the database into the placeholder:<br />
-  	<img src={'../../img/eng/10-12-url-box.png'}/><br />
+  <TabItem value="sra"><p align="center">To upload, paste the sample ID (SRRXXXXX) from the database into the placeholder:<br />
+  	<img src={'../../img/eng/10-12-url-box.png'} width="250"/><br />
   and click on the button:<br />
-  	<img src={'../../img/eng/11-13-url_active.png'}/><br />
+  	<img src={'../../img/eng/11-13-url_active.png'} width="250"/></p>
   </TabItem>
 </Tabs>
 
@@ -43,15 +42,21 @@ import TabItem from '@theme/TabItem';
 
 - If your sequencing is paired-end and a pair of FASTQ files of the same sample is named in an [Illumina convention](https://support.illumina.com/help/BaseSpace_OLH_009008/Content/Source/Informatics/BS/NamingConvention_FASTQ-files-swBS.htm) (or even by some other common read naming scheme), the files will be automatically recognized as a pair when added:
 
-![Pair](/img/eng/4-14-pair.png)
+<p align="center">
+<img src={'../../img/eng/4-14-pair.png'} width="300"/>
+</p>
 
 - If the pair is not recognized correctly, you can manually unlink files by clicking on the corresponding button highlighted below:
 
-![Unpair](/img/eng/5-15-unpair.png)
+<p align="center">
+<img src={'../../img/eng/5-15-unpair.png'} width="300"/>
+</p>
 
 - If the automatic pair recognition didn’t succeed, you can manually pair the files by clicking and dragging the same element:
 
-![Force pair](/img/eng/6-16-force-pair.png)
+<p align="center">
+<img src={'../../img/eng/6-16-force-pair.png'} width="300"/>
+</p>
 
 :::info
 While you fill in the rest of the fields, the files are already being uploaded to the system. Even if the files were not uploaded completely, you can start analyzing the samples.
