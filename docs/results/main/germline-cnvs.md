@@ -164,12 +164,16 @@ A description of the remaining 54 annotation fields can be found here: [AnnotSV 
 
 **Genome-wide CNV segments plot (example)**
 
-![Genome-wide plot](/img/eng/28-genome-wide-plot.png)
+<p align="center">
+<img src={'../../img/eng/28-genome-wide-plot.png'} width="800"/>
+</p>
 
 We can see the chromosomes on a horizontal scale and the copy number in chromosomes on a vertical scale. In this particular sample, the copy number of chromosome 21 is increased compared to normal diploid number of copies. Also notably, chromosome X has log2 copy ratio value of 1 meaning that it is twice the number of chromosome X in male genome, i.e. the sample has XX genotype.
 
 **Karyogram-like graph with denoted chromosome-level CNVs (example)**
 
-![Karyotype plot](/img/eng/29-karyotype-plot-example.png)
+<p align="center">
+<img src={'../../img/eng/29-karyotype-plot-example.png'} width="500"/>
+</p>
 
 The karyogram indicates an increased number of copies of chromosome 21 in the sample.

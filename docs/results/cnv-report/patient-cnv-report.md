@@ -7,7 +7,9 @@ sidebar_label: CNV Report for the patient
 
 Report is located on the **"CNV Report"** tab at the patient page.
 
-![CNV report tab](/img/eng/34-cnv-report-tab.png)
+<p align="center">
+<img src={'../../img/eng/34-cnv-report-tab.png'} width="800"/>
+</p>
 
 The **“Result”** section includes a report about the presence or absence of a deviation from the normal copy number in any chromosome in all patient samples.
 

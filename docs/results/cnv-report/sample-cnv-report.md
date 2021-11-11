@@ -7,7 +7,9 @@ sidebar_label: CNV Report for the sample
 
 Report is located on the **"CNV Report"** result tab. Can be exported to PDF.
 
-![CNV report for sample](/img/eng/33-cnv-report-chr21.png)
+<p align="center">
+<img src={'../../img/eng/33-cnv-report-chr21.png'} width="700"/>
+</p>
 
 The **“Result”** section includes a report about the presence or absence of a deviation from the normal copy number in any chromosome in the sample.
 

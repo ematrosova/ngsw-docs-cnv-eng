@@ -18,7 +18,7 @@ Reads count and their length before and after cleaning, and the reads percent re
 ### Quality Report
 
 This is a report on the sequence quality control metrics calculated at the “Check quality and cleanup” stage of the pipeline.
-A detailed report on metrics with visualization can be downloaded in the tab **“Workflow details” -> “Check quality and cleanup” -> “Check Quality” -> “Result files”**
+A detailed report on metrics with visualization can be downloaded in the tab **“Workflow details” -> “Check quality and cleanup” -> “Check Quality” -> “Result files”**.
 
 **Description of metrics and thresholds**
 
@@ -116,8 +116,7 @@ A detailed report on metrics with visualization can be downloaded in the tab **�
    </td>
    <td>AT/GC ratio
    </td>
-   <td>Average difference between A and T &lt; 1%, maximum difference &lt; 20%, \
-average difference between G and C &lt; 1%, maximum difference &lt; 20%
+   <td>Average difference between A and T &lt; 1%, maximum difference &lt; 20%. Average difference between G and C &lt; 1%, maximum difference &lt; 20%.
    </td>
   </tr>
 </table>
