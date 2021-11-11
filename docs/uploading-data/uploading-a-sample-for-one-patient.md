@@ -27,7 +27,7 @@ If the automatic pair recognition didn’t succeed, you can manually pair the fi
 
 After adding samples, you can fill out the patient card. We recommend filling out the card right away and documenting the added samples thoroughly - this will make it easier for you to interpret and navigate later.
 
-![Force pair](/img/eng/7-upload-samples.png)
+![Patient info](/img/eng/7-upload-samples.png)
 
 By default, the sequencing type is set to WGS, which is the basic type most commonly used for CNV analysis. If you are using targeted sequencing (exome or panel), change the type to the appropriate one.
 

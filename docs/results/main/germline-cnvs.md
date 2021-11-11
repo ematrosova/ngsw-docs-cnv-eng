@@ -62,8 +62,7 @@ You can also open the module for visualization of variations on the genome in th
   <tr>
    <td>AnnotSV type
    </td>
-   <td>The type of annotation lines (“full” - annotation on the variant full length, “split” - annotation on each gene overlapped by the variant) \
-Each full section can correspond to several split sections.
+   <td>The type of annotation lines (“full” - annotation on the variant full length, “split” - annotation on each gene overlapped by the variant). Each full section can correspond to several split sections.
    </td>
   </tr>
 </table>
