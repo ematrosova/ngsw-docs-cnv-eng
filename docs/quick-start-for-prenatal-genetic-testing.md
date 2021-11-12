@@ -18,13 +18,13 @@ Click on “**Add Patient**” to create a patient card.
 Only the **Patient ID** field is required. You can fill out the details later on this patient's personal page. Click on “**Create**”.
 
 <p align="center">
-<img src="img/eng/3-add-patient.png" height="400"/>
+<img src={require('/img/eng/3-add-patient.png').default} height="400"/>
 </p>
 
 You will see the patient page.
 
 <p align="center">
-<img src="img/eng/3a-patient-page.png" width="700"/>
+<img src={require('/img/eng/3a-patient-page.png').default} width="700"/>
 </p>
 
 ## 2. Upload Sample
@@ -43,24 +43,24 @@ import TabItem from '@theme/TabItem';
     {label: 'From FTP, HTTP or Yandex Disk servers', value: 'url'},
     {label: 'From the NCBI SRA database', value: 'sra'}]}>
   <TabItem value="pc"><p align="center">To upload, drag and drop files or folder containing files into the drop-area or click on it to open the File Browser:<br />
-  	<img src='img/eng/9-drag-drop-box.png' width="300"/></p>
+  	<img src={require('/img/eng/9-drag-drop-box.png').default} width="300"/></p>
   </TabItem>
   <TabItem value="url"><p align="center">To upload, paste the link to the file on the server into the placeholder:<br />
-  	<img src='img/eng/10-12-url-box.png' width="250"/><br />
+  	<img src={require('/img/eng/10-12-url-box.png').default} width="250"/><br />
   and click on the button:<br />
-  	<img src='img/eng/11-13-url_active.png' width="250"/></p>
+  	<img src={require('/img/eng/11-13-url_active.png').default} width="250"/></p>
   </TabItem>
   <TabItem value="sra"><p align="center">To upload, paste the sample ID (SRRXXXXX) from the database into the placeholder:<br />
-  	<img src='img/eng/10-12-url-box.png' width="250"/><br />
+  	<img src={require('/img/eng/10-12-url-box.png').default} width="250"/><br />
   and click on the button:<br />
-  	<img src='img/eng/11-13-url_active.png' width="250"/></p>
+  	<img src={require('/img/eng/11-13-url_active.png').default} width="250"/></p>
   </TabItem></Tabs>
 :::
 
 After uploading a sample, you can fill out the patient card. We recommend filling out the card right away and documenting the added samples thoroughly - this will make it easier for you to interpret and navigate later.
 
 <p align="center">
-<img src="img/eng/7-upload-samples.png" width="700"/>
+<img src={require('/img/eng/7-upload-samples.png').default} width="700"/>
 </p>
 
 ## 3. Start Analysis
@@ -73,7 +73,7 @@ If you upload a sample from a computer, and not by a link, then do not close the
 
 You can see that the analysis is complete when all stage statuses are green or orange:
 <p align="center">
-<img src="img/eng/7a-stage-statuses.png" width="150"/>
+<img src={require('/img/eng/7a-stage-statuses.png').default} width="150"/>
 </p>
 
 ## 4. Analysis Results
@@ -81,13 +81,13 @@ You can see that the analysis is complete when all stage statuses are green or o
 When the analysis is complete, you can examine the results. Open the sample page by clicking on sample row:
 
 <p align="center">
-<img src="img/eng/7b-sample-row.png" width="700"/>
+<img src={require('/img/eng/7b-sample-row.png').default} width="700"/>
 </p>
 
 Then click on the **CNV Report** tab and explore the report.
 
 <p align="center">
-<img src="img/eng/33-cnv-report-chr21.png" width="700"/>
+<img src={require('/img/eng/33-cnv-report-chr21.png').default} width="700"/>
 </p>
 
 The “**Result**” section includes a report about the presence or absence of a deviation from the normal copy number in any chromosome in the sample.

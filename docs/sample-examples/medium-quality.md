@@ -9,11 +9,11 @@ Medium quality data is data with non-critical problems: coverage &lt; 0.01X and/
 ![44](/img/eng/44-warning-status.png) ).
 
 <p align="center">
-<img src={'../img/eng/45-main-page-medium-data-quality.png'} width="800"/>
+<img src={require('/img/eng/45-main-page-medium-data-quality.png').default} width="800"/>
 </p>
 
 You can find information on the quality of the sample data in the column “Special marks” on the “CNV Report” tab on the patient page. In this case, “there are non-critical problems with data quality” of the sample.
 
 <p align="center">
-<img src={'../img/eng/46-cnv-report-medium-quality-data.png'} width="900"/>
+<img src={require('/img/eng/46-cnv-report-medium-quality-data.png').default} width="900"/>
 </p>

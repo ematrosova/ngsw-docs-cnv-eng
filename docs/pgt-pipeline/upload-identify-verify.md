@@ -10,5 +10,5 @@ At the identification stage, the data format, sequencing type and data source ar
 Classifying the reads type (DNA or RNA) is an experimental function and does not affect further pipeline.
 
 <p align="center">
-<img src="../img/eng/19-upload-identify-verify.png" width="800"/>
+<img src={require('/img/eng/19-upload-identify-verify.png').default} width="800"/>
 </p>

@@ -12,5 +12,5 @@ and also open the module for visualization of alignments in the embedded IGV ![I
 **The visualization in IGV: reducing the number of copies by the example of a deletion**
 
 <p align="center">
-<img src={'../../img/eng/32-igv-deletion.jpg'} width="800"/>
+<img src={require('/img/eng/32-igv-deletion.jpg').default} width="800"/>
 </p>
