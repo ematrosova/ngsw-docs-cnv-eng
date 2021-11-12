@@ -12,7 +12,7 @@ When you first open Genomenal, you will see a login page. Enter your login and p
 Click on “**Add Patient**” to create a patient card.
 
 <p align="center">
-<img src="img/eng/2-add-patient-button.png" width="700"/>
+<img src={require('/img/eng/2-add-patient-button.png').default} width="700"/>
 </p>
 
 Only the **Patient ID** field is required. You can fill out the details later on this patient's personal page. Click on “**Create**”.
