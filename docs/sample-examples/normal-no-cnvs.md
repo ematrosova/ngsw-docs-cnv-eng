@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-sidebar_label: Example of a sample with normal data quality and no aneuploidy
+sidebar_label: Example of a sample with no aneuploidy and normal data quality
 ---
 
-# Example of a sample with normal data quality and no aneuploidy
+# Example of a sample with no aneuploidy and normal data quality
 
 Normal quality data is data with a coverage ≥ 0.01X that meets all the quality control metrics after cleaning. For a sample with normal data quality, all stages of the pipeline will be complete and a “CNV Report” will be generated.
 
