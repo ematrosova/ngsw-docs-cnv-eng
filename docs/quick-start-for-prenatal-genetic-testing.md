@@ -27,9 +27,9 @@ You will see the patient page.
 <img src={require('/img/eng/3a-patient-page.png').default} width="700"/>
 </p>
 
-## 2. Upload Sample
+## 2. Upload Samples
 
-In the simplest case, the sample is a paired-end sequencing in FASTQ format.
+Select sample file(s) to analyze. In the simplest case, the sample is a paired-end sequencing in FASTQ format.
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -45,7 +45,7 @@ import TabItem from '@theme/TabItem';
   <TabItem value="pc"><p align="center">To upload, drag and drop files or folder containing files into the drop-area or click on it to open the File Browser:<br />
   	<img src={require('/img/eng/9-drag-drop-box.png').default} width="300"/></p>
   </TabItem>
-  <TabItem value="url"><p align="center">To upload, paste the link to the file on the server into the placeholder:<br />
+  <TabItem value="url"><p align="center">To upload, paste the link to the file or folder containing files on the server into the placeholder:<br />
   	<img src={require('/img/eng/10-12-url-box.png').default} width="250"/><br />
   and click on the button:<br />
   	<img src={require('/img/eng/11-13-url_active.png').default} width="250"/></p>
@@ -57,21 +57,22 @@ import TabItem from '@theme/TabItem';
   </TabItem></Tabs>
 :::
 
-After uploading a sample, you can fill out the patient card. We recommend filling out the card right away and documenting the added samples thoroughly - this will make it easier for you to interpret and navigate later.
+After uploading samples, you can fill out the patient card. We recommend filling out the card right away and documenting the added samples thoroughly - this will make it easier for you to interpret and navigate later.
 
 <p align="center">
-<img src={require('/img/eng/7-upload-samples.png').default} width="700"/>
+<img src={require('/img/eng/7c-upload-multiple-samples.png').default} width="700"/>
 </p>
 
 ## 3. Start Analysis
 
-Click on “**Submit Samples**” to start the sample analysis.
+Click on “**Submit Samples**” to start sample analysis.
 
 :::danger Attention!
-If you upload a sample from a computer, and not by a link, then do not close the tab where the sample is being uploaded until it is completed. Otherwise, the uploading will be interrupted. After the uploading stage, you can close the tab, the browser and turn off the computer - further analysis does not depend on your device.
+If you upload sample files from a computer, and not by a link, then do not close the tab where files are being uploaded until it is completed. Otherwise, the uploading will be interrupted. After the uploading stage, you can close the tab, the browser and turn off the computer - further analysis does not depend on your device.
 :::
 
-You can see that the analysis is complete when all stage statuses are green or orange:
+You can see that the sample analysis is complete when all stage statuses are green or orange:
+
 <p align="center">
 <img src={require('/img/eng/7a-stage-statuses.png').default} width="150"/>
 </p>

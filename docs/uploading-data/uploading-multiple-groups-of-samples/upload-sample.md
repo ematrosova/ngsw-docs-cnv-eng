@@ -23,7 +23,7 @@ import TabItem from '@theme/TabItem';
   <TabItem value="pc"><p align="center">To upload, drag and drop files or folder containing files into the drop-area or click on it to open the File Browser:<br />
   	<img src={require('/img/eng/9-drag-drop-box.png').default}  width="300"/></p>
   </TabItem>
-  <TabItem value="url"><p align="center">To upload, paste the link to the file on the server into the placeholder:<br />
+  <TabItem value="url"><p align="center">To upload, paste the link to the file or folder containing files on the server into the placeholder:<br />
   	<img src={require('/img/eng/10-12-url-box.png').default} width="250"/><br />
   and click on the button:<br />
   	<img src={require('/img/eng/11-13-url_active.png').default} width="250"/></p>
